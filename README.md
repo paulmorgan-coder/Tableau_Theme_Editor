@@ -56,6 +56,63 @@ For any color attribute, you can:
   - Shows categories, attributes, and descriptions
 - Helpful reference while editing themes
 
+## How to use the app
+
+1. **Load or create a theme**
+
+   - Start with the default theme provided by the app, **or**
+   - Upload an existing Tableau theme file (JSON / TMS) if a file upload widget is available.
+   - Once loaded, the theme structure is stored in the app and can be edited visually.
+
+2. **Edit by category**
+
+   - Go to the **“Edit by category”** tab.
+   - Work through logical groups such as:
+     - Typography
+     - Marks and lines
+     - Backgrounds and borders
+     - Tooltips and panes
+   - For each element in a category you can:
+     - Add or remove the element from the theme.
+     - Adjust colors (Hex / RGB / CMYK).
+     - Update font family, size, weight, and line attributes.
+
+3. **Edit all elements**
+
+   - Go to the **“Edit all elements”** tab.
+   - Use the search box to filter by:
+     - Element key, or  
+     - Human-readable name.
+   - Quickly scan and tweak multiple elements in one linear view without switching categories.
+
+4. **Use the JSON editor (advanced)**
+
+   - Open the **JSON editor** tab to work with the raw theme definition.
+   - Review or modify the full JSON in a large text area.
+   - Click **“Validate JSON”** to:
+     - Parse your changes, and  
+     - Apply them back into the live theme if valid.
+   - Recommended: download or save a backup of your theme before making large changes.
+
+5. **View in-app documentation**
+
+   - Open the **Documentation** section (if enabled in the UI).
+   - Browse a table of all style elements, including:
+     - Element key
+     - Category
+     - Attributes
+     - Description
+   - Use this as a reference when deciding which elements to customize.
+
+6. **Download your theme**
+
+   - Once you are happy with the edits:
+     - Use the download button(s) to export the theme as JSON or TMS.
+   - Save the file locally.
+   - Configure Tableau Desktop / Tableau Server / Tableau Cloud to use this theme according to Tableau’s theme configuration docs.
+
+
+
 ---
 
 ## Project structure
