@@ -1,6 +1,6 @@
 # Tableau Theme Builder (Streamlit)
 
-Interactive Streamlit app for building and editing Tableau theme JSON files.
+Interactive Streamlit app for building and editing Tableau theme JSON files. This code is unsupported but if you have comments or thoughts on improvement, please let me know!
 
 This app lets you:
 
