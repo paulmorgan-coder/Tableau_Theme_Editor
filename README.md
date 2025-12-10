@@ -64,6 +64,6 @@ If you keep it simple, your repo can look like this:
 
 ```text
 tabtheme/
-  ├─ tabtheme.py        # Main Streamlit app
+  ├─ tabthemeeditor.py        # Main Streamlit app
   ├─ requirements.txt   # Python dependencies
   └─ README.md          # This file
